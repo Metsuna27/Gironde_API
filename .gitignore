@@ -1,0 +1,69 @@
+# ==========================
+# Variables d'environnement
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Python
+# ==========================
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ==========================
+# Go
+# ==========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+coverage.out
+go.work.sum
+
+# ==========================
+# IDE et éditeurs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Système d'exploitation
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Logs et fichiers temporaires
+# ==========================
+*.log
+*.tmp
+*.bak
+
+# ==========================
+# MongoDB - Données locales
+# ==========================
+dump/
+mongodb-data/
+
+# ==========================
+# Certificats et clés privées
+# ==========================
+*.pem
+*.key
+*.p12
